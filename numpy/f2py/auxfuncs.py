@@ -65,7 +65,7 @@ def outmess(t):
 
 
 def debugcapi(var):
-    return debugoptions
+    return 'capi' in debugoptions
 
 
 def _isstring(var):
